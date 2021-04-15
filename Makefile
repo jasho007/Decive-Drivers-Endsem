@@ -1,4 +1,4 @@
-obj-m := 2a.o
+obj-m := 2b.o
 	
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
